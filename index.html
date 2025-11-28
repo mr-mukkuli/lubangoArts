@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Lubango Arts",
+  "url": "https://lubangoarts.com",
+  "logo": "https://lubangoarts.com/assets/images/logoWithText_1764166128263.png",
+  "description": "Award-winning film and television production company based in Lusaka, Zambia",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lusaka",
+    "addressCountry": "ZM"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "lubangoarts@gmail.com",
+    "telephone": "+260979035933"
+  },
+  "sameAs": [
+    "https://www.facebook.com/lubangoarts",
+    "https://www.instagram.com/lubangoarts",
+    "https://www.youtube.com/@lubangoarts",
+    "https://x.com/lubangoarts"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Nancy Handabile Showreel 2024",
+  "description": "Director and producer portfolio showcasing film and television work",
+  "thumbnailUrl": "https://lubangoarts.com/assets/images/logoWithText_1764166128263.png",
+  "uploadDate": "2024-01-01",
+  "duration": "PT6M22S",
+  "contentUrl": "https://www.youtube.com/watch?v=6BoPG6YgZ5k"
+}
+</script>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Lubango Arts - Award-winning film and television production company based in Lusaka, Zambia. Creating compelling stories for African audiences.">
-    <title>Lubango Arts - Director & Producer Portfolio</title>
+        content="Lubango Arts - Award-winning film and television production company based in Lusaka, Zambia. We create compelling stories for African audiences. Services include film, reality TV, documentaries, and digital content production.">
+    <meta name="keywords"
+        content="film production Zambia, television production, reality TV Zambia, documentary filmmaker, content creation Lusaka, African storytelling, Wanilata, Date My Family Zambia">
+    <meta name="author" content="Lubango Arts">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Lubango Arts - Film & Television Production | Zambia">
+    <meta property="og:description"
+        content="Award-winning film and television production company creating compelling stories for African audiences.">
+    <meta property="og:image" content="https://lubangoarts.com/assets/images/logoWithText_1764166128263.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://lubangoarts.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lubango Arts - Film & Television Production">
+    <meta name="twitter:description" content="Award-winning film and television production company in Zambia.">
+    <link rel="canonical" href="https://lubangoarts.com">
+    <title>Lubango Arts - Film & Television Production</title>
     <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,15 +75,15 @@
 <body>
     <nav class="nav">
         <div class="nav-container">
-            <a href="#hero" class="logo">
-                <img src="assets/images/logoWithText.png" alt="Lubango Arts" class="logo-img">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logoWithText_1764166128263.png" alt="Lubango Arts" class="logo-img">
             </a>
             <div class="nav-links">
-                <a href="#showreel" class="nav-link">Showreel</a>
                 <a href="#work" class="nav-link">Work</a>
-                <a href="#films" class="nav-link">Films</a>
                 <a href="#about" class="nav-link">About</a>
                 <a href="#contact" class="nav-link">Contact</a>
+                <a href="community.html" class="nav-link">Community</a>
+                <a href="https://arushapot.com" target="_blank" rel="noopener noreferrer">Arushapot</a>
             </div>
             <button class="menu-toggle" aria-label="Toggle menu">
                 <span></span>
@@ -39,6 +95,12 @@
 
     <main class="main">
         <section id="hero" class="hero-section">
+            <div class="hero-video-wrapper">
+                <video class="hero-video" autoplay muted loop playsinline>
+                    <source src="assets/videos/background.mp4" type="video/mp4">
+                </video>
+                <div class="hero-overlay"></div>
+            </div>
             <div class="hero-content">
                 <h1 class="hero-title">
                     <span class="hero-title-line">Stories That Move</span>
@@ -46,11 +108,8 @@
                 </h1>
                 <p class="hero-subtitle">Film & Television Production</p>
             </div>
-            <div class="scroll-indicator">
-                <span>Scroll to explore</span>
-                <div class="scroll-line"></div>
-            </div>
         </section>
+
 
         <section id="showreel" class="showreel-section">
             <div class="section-container">
@@ -105,36 +164,68 @@
         <section id="work" class="work-section">
             <div class="section-container">
                 <div class="section-header">
-                    <h2 class="section-title">Selected Work</h2>
-                    <p class="section-subtitle">2015—2024</p>
+                    <h2 class="section-title">Film and Tv</h2>
+                    <p class="section-subtitle">Selected Work</p>
                 </div>
 
                 <div class="work-grid">
                     <div class="work-card">
                         <div class="work-image-wrapper">
-                            <img src="assets/images/wanilata.jpg" alt="Wanilata" class="work-img">
+                            <img src="assets/images/dateMyFamily_1764166128268.jpg" alt="Date My Family Zambia"
+                                class="work-img">
                         </div>
                         <div class="work-info">
-                            <h3 class="work-title">Wanilata</h3>
-                            <p class="work-desc">Zambia's first reality dating show on Zambezi Magic. Singles navigate
-                                relationships in a unique format that challenges whether connections are built on
-                                genuine friendship or romantic attraction.</p>
+                            <h3 class="work-title">Date My Family Zambia</h3>
+                            <p class="work-desc">A heartwarming reality format where potential partners meet each
+                                other's families first, creating a unique perspective on relationships and family
+                                approval.</p>
                             <div class="work-meta">
                                 <span class="work-tag">Reality TV</span>
-                                <span class="work-year">2021</span>
+                                <span class="work-year">Season 4</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="work-card">
                         <div class="work-image-wrapper">
-                            <img src="assets/images/loveGames.jpg" alt="Love Games" class="work-img">
+                            <img src="assets/images/wanilata_1764166128268.jpg" alt="Wanilata" class="work-img">
+                        </div>
+                        <div class="work-info">
+                            <h3 class="work-title">Wanilata</h3>
+                            <p class="work-desc">Zambia's first reality dating show. Singles navigate relationships in a
+                                unique format that challenges whether connections are built on genuine friendship or
+                                romantic attraction.</p>
+                            <div class="work-meta">
+                                <span class="work-tag">Reality TV</span>
+                                <span class="work-year">Seasons 1 & 2</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-image-wrapper">
+                            <img src="assets/images/loveBackZambia_1764166128263.webp" alt="Love Back Zambia"
+                                class="work-img">
+                        </div>
+                        <div class="work-info">
+                            <h3 class="work-title">Love Back Zambia</h3>
+                            <p class="work-desc">A compelling relationship reality show that helps couples reconnect and
+                                rediscover their love, bringing heartfelt stories of reconciliation.</p>
+                            <div class="work-meta">
+                                <span class="work-tag">Reality TV</span>
+                                <span class="work-year">Season 2</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-image-wrapper">
+                            <img src="assets/images/loveGames_1764166128264.jpg" alt="Love Games" class="work-img">
                         </div>
                         <div class="work-info">
                             <h3 class="work-title">Love Games</h3>
                             <p class="work-desc">A gripping romantic drama exploring the complexities of modern
-                                relationships, weaving together themes of love, betrayal, and redemption in contemporary
-                                African society.</p>
+                                relationships, weaving together themes of love, betrayal, and redemption.</p>
                             <div class="work-meta">
                                 <span class="work-tag">Drama</span>
                                 <span class="work-year">2019</span>
@@ -144,13 +235,12 @@
 
                     <div class="work-card">
                         <div class="work-image-wrapper">
-                            <img src="assets/images/tizibika.webp" alt="Tizibika" class="work-img">
+                            <img src="assets/images/tizibika_1764166128267.webp" alt="Tizibika" class="work-img">
                         </div>
                         <div class="work-info">
                             <h3 class="work-title">Tizibika</h3>
                             <p class="work-desc">A clever social media satire series that breaks the fourth wall,
-                                offering sharp commentary on modern digital culture and the performative nature of
-                                online interactions.</p>
+                                offering sharp commentary on modern digital culture.</p>
                             <div class="work-meta">
                                 <span class="work-tag">Comedy</span>
                                 <span class="work-year">2020</span>
@@ -160,48 +250,98 @@
 
                     <div class="work-card">
                         <div class="work-image-wrapper">
-                            <img src="assets/images/masauso.webp" alt="Masauso" class="work-img">
+                            <img src="assets/images/masauso_1764166128265.webp" alt="Masauso" class="work-img">
                         </div>
                         <div class="work-info">
                             <h3 class="work-title">Masauso</h3>
-                            <p class="work-desc">An original Zambezi Magic drama series following compelling characters
-                                through their triumphs and tribulations, showcasing authentic Zambian storytelling.</p>
+                            <p class="work-desc">An original drama series following compelling characters through their
+                                triumphs and tribulations, showcasing authentic Zambian storytelling.</p>
                             <div class="work-meta">
                                 <span class="work-tag">TV Series</span>
                                 <span class="work-year">2018</span>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <div class="work-card">
-                        <div class="work-image-wrapper">
-                            <img src="assets/images/theBoarderline.jpg" alt="The Borderline" class="work-img">
-                        </div>
-                        <div class="work-info">
-                            <h3 class="work-title">The Borderline</h3>
-                            <p class="work-desc">A tense psychological thriller that pushes the boundaries of African
-                                cinema, exploring the darker corners of the human psyche through sophisticated
-                                storytelling.</p>
-                            <div class="work-meta">
-                                <span class="work-tag">Thriller</span>
-                                <span class="work-year">2019</span>
-                            </div>
+        <section id="other-work" class="other-works-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Other Projects</h2>
+                    <p class="section-subtitle">Selected projects and collaborations</p>
+                </div>
+
+                <div class="works-container">
+                    <div class="work-display">
+                        <img src="assets/images/dmf_1764166128269.webp" alt="Community & Charity Work"
+                            class="work-display-image">
+                        <div class="work-display-content">
+                            <span class="work-display-tag">Social Impact</span>
+                            <h3 class="work-display-title">Community & Charity Work</h3>
+                            <p class="work-display-description">
+                                Extensive community engagement and charity initiatives focused on education, women
+                                empowerment, and youth development across Zambia. Partnered with local organizations to
+                                create sustainable impact.
+                            </p>
+                            <div class="work-display-year">2015-Present</div>
+                            <a href="community.html" class="work-link">View Community Projects</a>
                         </div>
                     </div>
 
-                    <div class="work-card">
-                        <div class="work-image-wrapper">
-                            <img src="assets/images/dateMyFamily.jpg" alt="Date My Family Zambia" class="work-img">
+                    <div class="works-list">
+                        <div class="work-item active" data-work="community-work">
+                            <div class="work-item-title">Community & Charity</div>
+                            <div class="work-item-tag">Social Impact</div>
                         </div>
-                        <div class="work-info">
-                            <h3 class="work-title">Date My Family Zambia</h3>
-                            <p class="work-desc">A heartwarming reality format where potential partners meet each
-                                other's families first, creating a unique perspective on relationships and family
-                                approval.</p>
-                            <div class="work-meta">
-                                <span class="work-tag">Reality TV</span>
-                                <span class="work-year">2020</span>
-                            </div>
+                        <div class="work-item" data-work="arushapot">
+                            <div class="work-item-title">Arushapot Art School</div>
+                            <div class="work-item-tag">Art Education</div>
+                        </div>
+                        <div class="work-item" data-work="zuba">
+                            <div class="work-item-title">Zuba TV Series</div>
+                            <div class="work-item-tag">Consultancy</div>
+                        </div>
+                        <div class="work-item" data-work="fashion-week">
+                            <div class="work-item-title">Zambia Fashion Week</div>
+                            <div class="work-item-tag">Event Coverage</div>
+                        </div>
+                        <div class="work-item" data-work="women-awards">
+                            <div class="work-item-title">Zambia Women's Awards</div>
+                            <div class="work-item-tag">Event Coverage</div>
+                        </div>
+                        <div class="work-item" data-work="theatre-festival">
+                            <div class="work-item-title">April Theatre Festival</div>
+                            <div class="work-item-tag">Event Coverage</div>
+                        </div>
+                        <div class="work-item" data-work="wanilata-theme">
+                            <div class="work-item-title">Wanilata Theme Song</div>
+                            <div class="work-item-tag">Music Production</div>
+                        </div>
+                        <div class="work-item" data-work="love-back-zambia">
+                            <div class="work-item-title">Love Back Zambia Theme</div>
+                            <div class="work-item-tag">Music Production</div>
+                        </div>
+                        <div class="work-item" data-work="mining-indaba">
+                            <div class="work-item-title">Zambia Mining Indaba</div>
+                            <div class="work-item-tag">Event Coverage</div>
+                        </div>
+                        <div class="work-item" data-work="trust-africa">
+                            <div class="work-item-title">Trust Africa</div>
+                            <div class="work-item-tag">Consultancy</div>
+                        </div>
+                        <div class="work-item" data-work="aerc">
+                            <div class="work-item-title">AERC Symposium</div>
+                            <div class="work-item-tag">Workshop</div>
+                        </div>
+                        <div class="work-item" data-work="tax-justice">
+                            <div class="work-item-title">Tax Justice Network</div>
+                            <div class="work-item-tag">Advocacy</div>
+                        </div>
+                        <div class="work-item" data-work="action-aid">
+                            <div class="work-item-title">Action Aid Zambia</div>
+                            <div class="work-item-tag">Social Impact</div>
                         </div>
                     </div>
                 </div>
@@ -299,20 +439,32 @@
             <div class="section-container">
                 <div class="about-content">
                     <h2 class="section-title">About Lubango Arts</h2>
-                    <p class="about-lead">We craft stories that matter. Lubango Arts is a film and television production
-                        company based in Lusaka, Zambia, creating compelling content that resonates with African
-                        audiences and beyond.</p>
+                    <p class="about-lead">Lubango Arts is a Communications Consultancy Firm registered in Zambia,
+                        specializing in content creation, curation, and management.</p>
 
                     <div class="about-grid">
                         <div class="about-block">
                             <h3 class="about-heading">What We Do</h3>
-                            <p>We produce feature films, documentaries, television series, and digital content that tell
-                                authentic African stories with professional excellence and cinematic quality.</p>
+                            <p>We specialize in Film, Reality TV, Documentaries, Photography, Live Streaming, and
+                                Digital Content.
+                                Our services extend to Actor Coaching, Creative Directing, Crew Supply, and
+                                comprehensive Filmmaking Consultancy
+                                from research through post-production quality control.</p>
                         </div>
                         <div class="about-block">
-                            <h3 class="about-heading">Our Approach</h3>
-                            <p>We believe in the power of storytelling to connect, inspire, and create change. Our
-                                production philosophy combines technical excellence with cultural authenticity.</p>
+                            <h3 class="about-heading">Our Expertise</h3>
+                            <p>Beyond production, we excel in Media Mobilization, Social Media Management, Content
+                                Curation,
+                                Branding, Translation, Copy Editing, Publicity, and Events Planning. We also train
+                                organizations
+                                on social media and online tools to increase their digital presence.</p>
+                        </div>
+                        <div class="about-block">
+                            <h3 class="about-heading">Our Reach</h3>
+                            <p>Our work extends beyond Zambia to Senegal, Kenya, Ethiopia (Addis Ababa), and Zimbabwe.
+                                We serve a diverse clientele including NGOs, Media Organizations, Corporates,
+                                International
+                                Civil Society Organizations, Celebrities, and Small-scale Businesses.</p>
                         </div>
                         <div class="about-block">
                             <h3 class="about-heading">Recognition</h3>
@@ -320,22 +472,27 @@
                                 <li>Top 8 MultiChoice Female Filmmakers SADC (2018)</li>
                                 <li>Ankazi Woman of the Year Award (2019)</li>
                                 <li>AMVCA Best Supporting Actress Nomination (2014)</li>
+                                <li>Pioneer of Zambia's first reality dating show, Wanilata</li>
                             </ul>
                         </div>
                         <div class="about-block">
-                            <h3 class="about-heading">Impact</h3>
-                            <p>Lubango Arts has pioneered several firsts in Zambian television, including the country's
-                                first original reality dating show, Wanilata.</p>
+                            <h3 class="about-heading">Our Values</h3>
+                            <ul class="achievements-list">
+                                <li>Integrity & Transparency</li>
+                                <li>Innovation & Creativity</li>
+                                <li>Client-Centered & Results-Oriented</li>
+                                <li>Continuous Improvement</li>
+                                <li>Deadline Conscious</li>
+                            </ul>
                         </div>
                         <div class="about-block">
-                            <h3 class="about-heading">Impact</h3>
-                            <p>Lubango Arts has pioneered several firsts in Zambian television, including the country's
-                                first original reality dating show, Wanilata.</p>
-                        </div>
-                        <div class="about-block">
-                            <h3 class="about-heading">Impact</h3>
-                            <p>Lubango Arts has pioneered several firsts in Zambian television, including the country's
-                                first original reality dating show, Wanilata.</p>
+                            <h3 class="about-heading">Community Impact</h3>
+                            <p>Lubango Arts strives to create opportunities for minorities including women, disabled
+                                people,
+                                and young people. Our work revolves around a strong ethic of respect for all,
+                                irrespective of
+                                sex, race, religion, or social identification. We are actively involved in charity
+                                causes.</p>
                         </div>
                     </div>
                 </div>
@@ -372,9 +529,11 @@
                                 <option value="film">Film Production</option>
                                 <option value="tv">Television Series</option>
                                 <option value="reality">Reality TV</option>
+                                <option value="documentary">Documentary</option>
                                 <option value="commercial">Commercial</option>
                                 <option value="digital">Digital Content</option>
-                                <option value="voice">Voice & Audio</option>
+                                <option value="events">Events & Coordination</option>
+                                <option value="training">Training & Consulting</option>
                                 <option value="other">Other</option>
                             </select>
                         </div>
@@ -400,8 +559,11 @@
                 <a href="https://zm.linkedin.com/in/nancyhandabile" target="_blank" rel="noopener">LinkedIn</a>
             </div>
             <div class="footer-center">
-                <p>&copy; 2025 Lubango Arts Limited | Lusaka, Zambia</p>
-                <p class="footer-designer">Designed & Built by Milimo Mukkuli</p>
+                <p class="footer-contact">
+                    <a href="mailto:lubangoarts@gmail.com">lubangoarts@gmail.com</a> |
+                    <a href="tel:+260979035933">+260 979 035933</a>
+                </p>
+                <p>&copy; 2025 Lubango Arts Limited.</p>
             </div>
         </div>
     </footer>
